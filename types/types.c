@@ -18,11 +18,15 @@ int main(void)
         // Can also be an int referring to the ASCII number.
     char mychar = 'Y';
 
+        // String
+    char str[] = "A string to output!\n";
+
     printf("position: %d\n", position);
     printf("x: %d, y: %d, z: %d\n", x, y, z);
     printf("num: %f\n", myfloat);
     printf("mydouble: %lf\n", mydouble);
     printf("char: %c\n", mychar);
+    printf("str: %s", str);
 
     return 0;
 }
