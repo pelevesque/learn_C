@@ -17,4 +17,3 @@ gcc -o file file.c
 ```sh
 ./file
 ```
-
